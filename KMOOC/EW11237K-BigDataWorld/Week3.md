@@ -214,6 +214,5 @@ Hadoop : 대용량 데이터의 분산 저장과 처리가 가능한 자바(Java
 
 ![week3_14.png](images/week3_14.png)
 
-비즈니스 인텔리전스 기반구조
-
-![week3_16.png](images/week3_16.png) 
+비즈니스 인텔리전스 기반구조 : 정형 데이터 + 비정형 데이터
+![week3_16.png](images/week3_16.png)
