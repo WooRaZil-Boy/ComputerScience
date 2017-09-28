@@ -37,10 +37,12 @@ Data : Datum의 복수형
 - 오른편으로 긴 꼬리 형태(skewed to the left)
 - 대칭에 가까운 형태(symmetric)
 - 왼편으로 긴 꼬리 형태(skewed to the right)
+
 ![week2_3.png](images/week2_3.png)
 
 퍼짐 측도(Measures of Dispersion)
 - 표본 분산(sample) : n이 아닌 n-1로 나눈다.
+
 ![week2_4.png](images/week2_4.png)
 - 표본 범위(sample range)
   - R = 최대값 - 최소값 : 표본 범위(sample range)    
@@ -56,11 +58,14 @@ Data : Datum의 복수형
 
 이변량 자료
 - 두 변수가 모두 질적 자료인 경우 : 첫 번째 자료는 r개의 범주, 두 번째 자료는 c개의 범주. 이러한 자료를 행렬의 형태로 요약한 표를 r * c 분할표(r x c contingency table)라 부른다.
+
 ![week2_6.png](images/week2_6.png)
 
 - 두 변수가 모두 양적 자료인 경우
+
 ![week2_7.png](images/week2_7.png)
   - 산점도(scatter plot) : 이차원 평면에 각 변수의 값에 해당되는 점을 찍은 그림. 흔히 산점도는 하나의 변수 값이 증가할 때, 다른 변수의 값이 증가(또는 감소)하는 추세에 있거나 별 다른 함수관계를 보이지 않는 경우도 있음
+
   ![week2_8.png](images/week2_8.png)
     - 허위상관과 잠복변수(spurious correlation and lurking) : 산점도의 상관관계를 잘못해석하는 경우. ex) 특정도시의 연간 강력범죄 발생 건수와 교회의 수는 매우 높은 양의 상관관계를 가진다. 하지만 교회 숫자를 줄이면 강력범죄를 줄일수 있다는 결과는 잘못된 결론이다. 이는 '인구'라는 잠복 변수로 인하여 강력범죄건수와 교회 수가 양의 상관관계를 가지는 것처럼 잘못 판단할 수 있다. 이를 **허위상관**이라 부른다.
   - 표본 상관계수(sample correlation) : 두 변수의 **선형적 함수 관계**를 나타내는 측도
