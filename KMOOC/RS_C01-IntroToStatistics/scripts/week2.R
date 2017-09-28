@@ -86,3 +86,7 @@ boxplot(x, range = 1.0)
 
 
 ########## 2-3 ##########
+x <- faithful$eruptions
+y <- faithful$waiting
+plot(x, y) #scatter plot
+cor(x, y) #sample correlation
