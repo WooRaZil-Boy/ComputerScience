@@ -22,7 +22,7 @@ Data : Datum의 복수형
 
 ## 중심과 퍼짐 측도
 
-중심 측도(Measures of Center)
+#### 중심 측도(Measures of Center)
 - 표본 평균(sample mean) : 기하학적으로는 무게중심으로 볼 수 있다.
 ![week2_1.png](images/week2_1.png)
 - 표본 중간값(sample median) : n개의 자료를 작은것으로부터 크기 순으로 나열하였을 때 **가운데**에 있는 값
@@ -40,7 +40,7 @@ Data : Datum의 복수형
 
 ![week2_3.png](images/week2_3.png)
 
-퍼짐 측도(Measures of Dispersion)
+#### 퍼짐 측도(Measures of Dispersion)
 - 표본 분산(sample) : n이 아닌 n-1로 나눈다.
 
 ![week2_4.png](images/week2_4.png)
@@ -56,11 +56,13 @@ Data : Datum의 복수형
 - 이변량 자료(bivariate data) : **두 개**의 변수에 대한 자료
 - 다변량 자료(multivariate data) : **여러 개**의 변수에 대한 자료
 
+#### 질적 자료
 이변량 자료
 - 두 변수가 모두 질적 자료인 경우 : 첫 번째 자료는 r개의 범주, 두 번째 자료는 c개의 범주. 이러한 자료를 행렬의 형태로 요약한 표를 r * c 분할표(r x c contingency table)라 부른다.
 
 ![week2_6.png](images/week2_6.png)
 
+### 양적자료
 - 두 변수가 모두 양적 자료인 경우
 
 ![week2_7.png](images/week2_7.png)
